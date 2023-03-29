@@ -14,4 +14,14 @@
     align-items: center;
     flex-direction: column;
 }
-
+.firstSectionnothome{
+    background-image: url('/images/firstsection.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
