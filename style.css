@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .firstSection{
-    background-image: url('/images/firstsection.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('/images/firstsection.jpg');
     height: 80vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -15,7 +16,7 @@
     flex-direction: column;
 }
 .firstSectionnothome{
-    background-image: url('/images/firstsection.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('/images/firstsection.jpg');
     height: 60vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -24,4 +25,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
 }
