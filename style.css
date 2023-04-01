@@ -32,18 +32,13 @@
 .cl{
     color: #666;
 }
-.custom-list {
-    display: flex;
-    flex-wrap: wrap;
+.scl{
+    color: #25323E;
+}
+.list {
+    line-height: 40px;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .custom-list li {
-    width: 50%;
-    /* padding: 5px; */
-    box-sizing: border-box;
-    text-align: center;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
