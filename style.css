@@ -32,4 +32,18 @@
 .cl{
     color: #666;
 }
+.custom-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .custom-list li {
+    width: 50%;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    text-align: center;
+  }
 
