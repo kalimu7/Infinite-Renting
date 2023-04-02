@@ -41,4 +41,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+#chat3 .form-control {
+    border-color: transparent;
+}
+    
+#chat3 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+.active{
+    background-color: #03254b;
+}
+.notactive{
+    background-color: #03254bc9;
+}
